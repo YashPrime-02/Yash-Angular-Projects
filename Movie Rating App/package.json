@@ -1,5 +1,5 @@
 {
-  "name": "user-management",
+  "name": "movie-rating-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
