@@ -40,8 +40,8 @@ input[type="text"] {
 width: 90%;
 padding: 15px;
 border-radius: 6px;
-border: 1px solid #008080;
-background-color: #f5f5f5;
+border: 1px solid #072ea2;
+background-color: #bab3b3;
 }
 
 input[type="email"]:focus,
@@ -55,7 +55,7 @@ width: 100%;
 padding: 15px;
 border: none;
 border-radius: 6px;
-background: linear-gradient(135deg, #008080, #80ced6);
+background: linear-gradient(135deg, #000000, #80ced6);
 color: #ffffff;
 cursor: pointer;
 transition: background-color 0.3s ease;

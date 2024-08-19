@@ -4,15 +4,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Router } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './Components/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import {MatSnackBar} from '@angular/material/snack-bar';
+import { SideNavComponent } from './Components/side-nav/side-nav.component';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
 
   declarations: [
     AppComponent,
+
 
   ],
   imports: [
@@ -21,6 +24,7 @@ import {MatSnackBar} from '@angular/material/snack-bar';
     AppRoutingModule,
     ReactiveFormsModule,
     CommonModule,
+    MatIconModule,
   ],
 
   providers: [],
