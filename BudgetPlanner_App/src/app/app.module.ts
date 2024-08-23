@@ -10,11 +10,13 @@ import { CommonModule } from '@angular/common';
 import {MatSnackBar} from '@angular/material/snack-bar';
 import { SideNavComponent } from './Components/side-nav/side-nav.component';
 import { MatIconModule } from '@angular/material/icon';
+import { DashboardComponent } from './Components/dashboard/dashboard.component';
 
 @NgModule({
 
   declarations: [
     AppComponent,
+    DashboardComponent,
 
 
   ],
