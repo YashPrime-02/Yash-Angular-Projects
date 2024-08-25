@@ -6,8 +6,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './Pages/home/home.component';
 import { ContactComponent } from './Pages/contact/contact.component';
 import { AboutComponent } from './Pages/about/about.component';
-import { HeaderComponent } from './Shared/header/header.component';
-import { FooterComponent } from './Shared/footer/footer.component';
+
+import { SharedModule } from './Shared/shared.module';
+
 
 @NgModule({
   declarations: [
@@ -15,12 +16,13 @@ import { FooterComponent } from './Shared/footer/footer.component';
     HomeComponent,
     ContactComponent,
     AboutComponent,
-    HeaderComponent,
-    FooterComponent
+
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule,
   ],
   providers: [
     provideClientHydration()

@@ -16,7 +16,7 @@ import { DashboardComponent } from './Components/dashboard/dashboard.component';
 
   declarations: [
     AppComponent,
-    DashboardComponent,
+
 
 
   ],
@@ -27,6 +27,7 @@ import { DashboardComponent } from './Components/dashboard/dashboard.component';
     ReactiveFormsModule,
     CommonModule,
     MatIconModule,
+    DashboardComponent,
   ],
 
   providers: [],

@@ -1,1 +1,10 @@
-<h1> Works</h1>
+<div>
+<app-header>
+  <a [routerLink]="['/home']"></a>
+  <a [routerLink]="['/about']"></a>
+  <a [routerLink]="['/contact']"></a>
+</app-header>
+
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+</div>
